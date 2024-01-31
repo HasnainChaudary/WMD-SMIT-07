@@ -1,10 +1,169 @@
-<center><img src="c:\Users\sam_i\Downloads\WhatsApp Image 2024-01-03 at 8.39.19 PM (1).jpeg" alt=""></center>
-<hr>
-<center><a href="index.html">Home</a> <a href="Menu.html">Menu</a> <a href="About.html">About</a> <a href="Timings.html">Timings</a> <a href="Contact us.html">Contact Us</a></center>
-<hr>
-<center><h3>We serve delicious fast food items</h3></center>
-<center><img src="c:\Users\sam_i\Downloads\WhatsApp Image 2024-01-03 at 8.39.24 PM.jpeg" alt="Burger" width="230" height="140"> <img src="c:\Users\sam_i\Downloads\WhatsApp Image 2024-01-03 at 8.39.18 PM (3).jpeg" alt="pizza" width="230" height="140"> <img src="c:\Users\sam_i\Downloads\WhatsApp Image 2024-01-03 at 8.39.19 PM (2).jpeg" alt="platter" width="230" height="140"></center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+ integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            position: relative;
+            background-color: rgb(41, 41, 44);
+            color: white;
+            font-family: 'Poppins', sans-serif; 
+            opacity: 2;
+           height: 100vh;
+        }
+        &::before{
+            content:'' ;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+    background-image: url(background.webp);
+    background-size: 100%;
+    background-position: center;
+    opacity:0.2 ;
+    display: flex;
+    height: 900px;
+    
+   
 
-<h3><center><button><a href="Menu.html">Let see our menu</a></button></center></h3>
-<hr>
-<h2><center>Copyright 2021 Umair's cuisine.</center></h2>
+}
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: black;
+            
+        }
+    nav a{
+        margin: 0 23px;
+        
+    }
+    .left{
+        font-size: 1.5rem;
+
+    }
+    .firstsection{
+        display: flex;
+        justify-content: space-around;
+        margin: 23px 0;
+    }
+.firstsection div{
+    width: 30%;
+}
+    .leftsection {
+font-size: 3rem;
+margin: 40px;
+width: 10%;
+    }
+    .leftsection h1{
+        color: rgb(224, 228, 18);
+    }
+     
+.rightsection img{
+    width: 100%;
+    
+}
+.circle{
+    margin: 23px 0;
+
+}
+.circle img{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.secondsection button{
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 10px;
+    margin-bottom: 13px;
+    color: aliceblue;
+    margin-bottom: 13px;
+}
+button a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+.secondsection button:hover{
+    background-color: goldenrod;
+    font-size: 0.9rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    
+    color: rgb(236, 215, 25);
+    font-size: 1.1rem;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+             <div class="left">Hasnain's Cuisine</div>
+            <div class="right"><a href="index.html">Home</a> <a href="Menu.html">Menu</a> <a href="About.html">About</a> <a href="Timings.html">Timings</a> <a href="Contact us.html">Contact Us</a>
+        </div>
+        </nav>
+    </header>
+    
+    
+    <main>
+        
+        <section class="firstsection">
+            <div class="leftsection">
+                <i>Welcome to</i><h1>HASNAIN'S
+                    <DIV>CUISINE</DIV>
+                </h1>
+            </div>
+       
+            <div class="rightsection">
+                <img src="black plate food.png" alt="">
+            </div>
+
+
+        </section>
+        <section class="secondsection">
+
+            <hr>
+            <center><h3>We serve delicious fast food items</h3></center>
+            
+            <hr>
+            <div class="circle">
+
+                <center><img src="burger.jpg" alt="Burger" width="200" height="140"> <img src="pizza-1.jpeg" alt="pizza" width="230" height="140"> <img src="platter.jpeg" alt="platter" width="200" height="140"></center>
+
+            </div>
+            
+            <h3><center><button><a href="Menu.html"><b>Let see our menu</b></a></button></center></h3>
+            <hr>
+            <h2><center>Copyright &copy; 2021 Hasnain's cuisine.</center></h2>
+            
+
+        </section>
+    </main>
+</body>
+</html>
