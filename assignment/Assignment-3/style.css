@@ -1,0 +1,248 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+}
+.card{
+    width: 1300px;
+    height: 520px;
+    background-color: rgb(243, 242, 242);
+    margin-left: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+button{
+    background: orangered;
+    color: white;
+    width: 125px;
+    height: 30px;
+    border: none;
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.left img{
+    width: 45px;
+    height: 45px;
+}
+.left p{
+    margin-left: 8px;
+    font-weight: bold;
+}
+.right img{
+    width: 23px;
+    height: 23px;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-between;
+}
+.leftSection{
+    margin: 100px;
+    font-size: 3rem;
+    margin-top: 56px;
+}
+.buttonone{
+    margin-top: 70px;
+}
+.CONTACT{
+    background-color: black;
+}
+.leftSection p{
+    font-size: 1rem;
+    text-align: justify;
+height: 45px;
+width: 500px;
+}
+.rightsection img{
+    width: 600x;
+    height: 300px;
+margin-top: 78px;
+margin-right: 120px;
+}
+.secondsection{
+   align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 29px;
+}.secondsection h1{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.secondcards{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    gap: 45px;
+    margin-top: 45px;
+}
+.boxone{
+    height: 380px;
+    width: 350px;
+    box-shadow: 0px 0px 10px black;
+}
+.boxtwo{
+    height: 380px;
+    width: 350px;
+    box-shadow: 0px 0px 10px black;
+}
+.boxthree{
+    height: 380px;
+    width: 350px;
+    box-shadow: 0px 0px 10px black;
+}
+.secondsection img{
+    margin-top: 45px;
+    width: 45px;
+    height: 45px;
+}
+.secondsection h3{
+    margin-top: 67px;
+    color: orangered;
+}
+.secondsection p{
+    margin-top: 23px;
+}
+.read button{
+   background-color: black;
+    margin-top: 45px;
+}
+.fresh{
+    margin-top: 45px;
+}
+.fresh p{
+    margin-bottom: 34px;
+}
+.thirdsection{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.orange{
+    margin-left: 78px;
+}
+.orange h6{
+    font-size: 2rem; 
+    margin-bottom: 28px;
+}
+.leftside{
+    width: 800px;
+}
+.orange button{
+    background-color: black;
+    margin-top: 28px;
+    margin-bottom: 140px;
+}
+.rightside img{
+    display: flex;
+    flex-direction: column;
+}
+.malta{
+margin-bottom: 100px;
+    width: 250px;
+    height: 150px;
+    margin-right: 150px;
+
+}
+.angoor{
+    height: 300px;
+    margin-bottom: 90px;
+}
+.amrood{
+width: 220px;
+height: 200px;
+}
+.forthsection{
+  text-align: center;
+  margin: 67px;
+ 
+}
+.forthsection h1{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.forthsection img{
+    margin-top: 40px;
+}
+.forthsection h6{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.fifthsection{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+.fifthsection h1{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.leftend{
+    width: 600px;
+}
+.leftend h6{
+    margin-top: 23px;
+    font-size: 1rem;
+    opacity: 50%;
+}
+.message{
+    margin-top: 67px;
+}
+button.send{
+    margin-top: 67px;
+}
+.lastboxes{
+    margin-top: 100px;
+    display: flex;
+    font-size: 1.5rem;
+    margin-right: 250px;
+    margin-left: 60px;
+    gap: 45px;
+}
+.lastboxes p{
+    margin-top: 40px;
+    opacity: 70%;
+}
+.forthbox{
+    margin-left: 56px;
+}
+.logo{
+    display: flex;
+    gap: 12px;
+    margin-top: 45px;
+}
+.forthbox p{
+    opacity: 100%;
+}
+.forthbox input{
+    width: 230px;
+    height: 23px;
+}
+footer nav{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 1rem;
+    margin-bottom: 200px;
+    background-color: rgb(243, 242, 242);
+    height: 34px;
+}
+
